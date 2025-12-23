@@ -352,7 +352,6 @@ st.sidebar.header("Configuration")
 try:
     if 'newsapi_key' in st.secrets:
         api_key = st.secrets['newsapi_key']
-        st.sidebar.success(" API Key loaded from secrets")
     else:
         api_key = st.sidebar.text_input("NewsAPI Key", type="password", value="145fafc1f2264a0f91d8e355a6f0b2c5")
 except:
