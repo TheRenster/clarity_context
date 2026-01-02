@@ -1026,10 +1026,3 @@ with tab3:
         source_stats.style.background_gradient(subset=['Total Words'], cmap='YlOrRd'),
         use_container_width=True
     )
-st.error("❌ Unable to load data. Please ensure `news_analysis_results.csv` is in the same directory.")
-st.info("""
-**Required file:**
-- `news_analysis_results.csv` (required)
-
-Run the analysis notebooks (Parts 1-2) first to generate this file.
-""")
